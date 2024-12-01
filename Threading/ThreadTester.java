@@ -16,6 +16,6 @@ public class ThreadTester {
         },"Thread 3");
         thread3.start();
         
-        System.out.println("Main is executing");
+        System.out.println("Main is executing and stopping");
     }
 }
