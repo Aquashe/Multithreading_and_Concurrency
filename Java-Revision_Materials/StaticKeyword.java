@@ -25,6 +25,12 @@ public class StaticKeyword {
         {
             System.out.println("Name : "+name+" Id : "+id+" Salary :"+salary+" CEO : "+ceo);
         }
+
+        public  static void staticMethodExample(Emp obj){
+            System.out.println("In static method");
+            System.out.println("Name : "+obj.name+" Id : "+obj.id+" Salary :"+obj.salary+" CEO : "+ceo);
+
+        }
     }
 
     public static void main(String[] args) {
@@ -33,12 +39,14 @@ public class StaticKeyword {
         Emp Krishna = new Emp("Krishna",2,40000,"Ramesh");
 
         Emp.ceo = "Thomas";
-        
+
         obj.show();
         navin.show();
         Krishna.show();
 
         Emp.ceo = "Thomas";
+
+        Emp.staticMethodExample(navin);
 
     }
 }
