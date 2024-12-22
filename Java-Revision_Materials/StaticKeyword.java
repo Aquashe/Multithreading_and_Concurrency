@@ -1,3 +1,4 @@
+
 public class StaticKeyword {
     public static class Emp{
         String name;
@@ -19,6 +20,7 @@ public class StaticKeyword {
 
         static{
             ceo = "Larry";
+            System.out.println("In static block");
         }
 
         public void show()
@@ -33,7 +35,14 @@ public class StaticKeyword {
         }
     }
 
-    public static void main(String[] args) {
+
+    public static  class InnerStaticKeyword {
+    
+        static{
+            System.out.println("In static bloack");
+        }
+    }
+    public static void main(String[] args) throws ClassNotFoundException {
         Emp obj = new Emp();
         Emp navin = new Emp("Navin",1,30000,"Lakshmi");
         Emp Krishna = new Emp("Krishna",2,40000,"Ramesh");
@@ -47,6 +56,7 @@ public class StaticKeyword {
         Emp.ceo = "Thomas";
 
         Emp.staticMethodExample(navin);
+        Class.forName("InnerStaticKeyword");
 
     }
 }
