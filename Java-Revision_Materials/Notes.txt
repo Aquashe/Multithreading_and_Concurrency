@@ -1,0 +1,4 @@
+1.SUPER
+
+-> Every time u called a constructor , first one is calling is the super() keyword.
+-> Even the class is a parent class it will be calling super ,  because every class in java inherts the Object Class
