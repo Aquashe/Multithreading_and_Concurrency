@@ -28,6 +28,7 @@ public class InterfaceUse {
 
         Devolper thomas = new Devolper();
         thomas.devApp(desk);
+        thomas.devApp(lap);
         
     }
 }
