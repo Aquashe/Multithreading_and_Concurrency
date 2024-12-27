@@ -2,3 +2,10 @@
 
 -> Every time u called a constructor , first one is calling is the super() keyword.
 -> Even the class is a parent class it will be calling super ,  because every class in java inherts the Object Class
+
+2.Interface 
+
+-> Every methods in Interface are public and abstract in default.
+-> All the variable are by default are final and static
+-> We can implements multiple interfaces
+-> Interface to Interface use extends keyword
