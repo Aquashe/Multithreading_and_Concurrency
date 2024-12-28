@@ -9,3 +9,29 @@
 -> All the variable are by default are final and static
 -> We can implements multiple interfaces
 -> Interface to Interface use extends keyword
+
+3.Annotations
+
+-> It helps in avoiding bugs in the compile time itself 
+-> eg: @override , @Depricated 
+
+4.Functional interfaces
+
+-> Have only one method
+-> We can only use Lambda expression with Functional interface
+-> Whenever in lamda is a single line and it is a return don't write the return
+
+5.Throw
+
+-> Whenever you wnat to handle the exception you can use the throw keyword
+
+
+6.Finally
+
+-> Whenever u have to do things irrespective of exception u can use Finally keyword.
+-> instead of try-catch u can use the try-finally also.
+-> whenever u want to close the connection or close the resources write that in finally 
+
+7.Anonymous class
+
+-> If the class is using only once its called anonymous class
