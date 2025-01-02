@@ -32,6 +32,29 @@
 -> instead of try-catch u can use the try-finally also.
 -> whenever u want to close the connection or close the resources write that in finally 
 
+
 7.Anonymous class
 
 -> If the class is using only once its called anonymous class
+
+
+8. HashMap and HashTable 
+
+-> Both are the same actually but only differnce is HashMap is synchronized.
+
+
+9. Comparator
+
+-> Comparator is an interface which we uses when we need to use sort on our own logic.
+
+
+10. Comparable
+
+-> If you want things to be sorted using Collections.sort() that class should extends the Comparable.
+-> Its a functional inertace with compareTo() method.
+
+11. Stream
+
+-> If you want to perfome some actions on your data without touching it you can use the stream().
+-> It can  used  only once 
+
